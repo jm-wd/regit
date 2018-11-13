@@ -1,0 +1,43 @@
+.m-top-5{
+    margin-top: 5em;
+}
+
+.p-top-10{
+    padding-top: 10em;
+}
+
+.nasa-item .nasa-img{
+    height: 250px;
+}
+
+.thumbnail img{
+    padding: 5px;
+    width: 100%;
+}
+
+.nasa-item{
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: #F5F5F5;
+    min-height: 250px;
+}
+
+.icon-container{
+    min-height: 250px;
+}
+
+.nasa-item:hover{
+    background: #797979;
+}
+
+.thumbnail i{
+    transform: translateY(120%);
+}
+
+.thumbnail a:hover, .thumbnail i:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
